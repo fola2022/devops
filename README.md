@@ -1,2 +1,2 @@
-# goodleap
-This repo is for GoodLeap application support
+# devops
+This repo is for training 
