@@ -1,0 +1,44 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogStream",
+                "logs:PutLogEvents"
+            ],
+            "Resource": [
+                "arn:aws-us-gov:logs:*:119362144802:log-group:/aws/lambda/StartStopEC2Instances:*:*",
+                "arn:aws-us-gov:logs:*:119362144802:log-group:/aws/lambda/StartStopEC2Instances"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "logs:CreateLogGroup"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "kms:CreateGrant",
+                "kms:ListGrants",
+                "kms:RevokeGrant"
+            ],
+            "Resource": [
+                "arn:aws-us-gov:kms:us-gov-west-1:323963243693:key/c5318079-bad4-4b8a-b877-d9976803d367",
+                "arn:aws-us-gov:kms:us-gov-west-1:323963243693:key/4ae48219-c19c-4b94-873d-886ce6a798e6"
+            ]
+        },
+        {
+            "Effect": "Allow",
+            "Action": [
+                "ec2:Start*",
+                "ec2:Stop*",
+                "ec2:Describe*"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
