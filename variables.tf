@@ -1,26 +1,4 @@
-#
-# RAYTHEON PROPRIETARY 
-# 
-# This document contains data or information proprietary to Raytheon Company 
-# and is restricted to use only by persons authorized by Raytheon Company in 
-# writing to use it. Disclosure to unauthorized persons would likely cause 
-# substantial competitive harm to Raytheon Company's business position. 
-# Neither said document nor its contents shall be furnished or disclosed to 
-# or copied or used by persons outside Raytheon Company without the express 
-# written approval of Raytheon Company. 
-#
-# WARNING – This repository contains Technical Data and / or technology whose
-# export or disclosure to Non-U.S. Persons, wherever located, is restricted by
-# the International Traffic in Arms Regulations (ITAR) (22 C.F.R. Section 120-130)
-# or the Export Administration Regulations (EAR) (15 C.F.R. Section 730-774).
-# This document CANNOT be exported (e.g., provided to a supplier outside of the
-# United States) or disclosed to a Non-U.S. Person, wherever located, until a final
-# Jurisdiction and Classification determination has been completed and approved
-# by Raytheon, and any required U.S. Government approvals have been obtained.
-# Violations are subject to severe criminal penalties.
-# 
-# Unpublished Work - Copyright Raytheon Company. (UNCLASSIFIED) 
-# 
+
 #==========================================================
 #== aws/security_group/variables.tf
 #==========================================================
